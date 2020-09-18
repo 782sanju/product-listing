@@ -313,7 +313,6 @@ header.main_header .row {
   overflow: auto;
   /* overflow-x: scroll; */
   width: 100%;
-  padding: 15px;
 }
 
 .search_box .product_listing {
@@ -1356,6 +1355,7 @@ ul.pagination {
 }
 ul.pagination li {
   display: inline-block;
+  line-height: 26px;
 }
 
 ul.pagination li {
@@ -2171,6 +2171,7 @@ ul.item_wrap {
   padding: 0 10px;
   border-radius: 8px;
   margin: 10px 0;
+  height: 25px;
 }
 .top_wtSep .address{
   text-overflow: ellipsis;

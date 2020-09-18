@@ -27,7 +27,7 @@ export default function Header() {
             </div>
             <div className="col-2">
               <div className="search_toggle">
-                <img alt="search" className="search_toggle_img gm-added gm-lazy" src="/images/search.png" />
+                <img alt="search" className="search_toggle_img gm-added gm-lazy" src="https://tshop.pogo91.com/images/search.png" />
               </div>
             </div>
             <div className="col-12"><a href="/cake-shop/address">

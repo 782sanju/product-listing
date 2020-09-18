@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
 /* @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&display=swap"); */
 
+ul.pagination {
+  margin-left: auto;
+  margin-right: auto;
+}
 /*.body,
 .wrapper {
   position: absolute;
@@ -32,7 +36,7 @@ body {
   overflow-x: hidden;
   letter-spacing: 0.01rem;
 
-  background-image: url();/*../images/pattren2.png);*/
+  background-image: url(https://tshop.pogo91.com/images/pattren2.png);
   background-repeat: repeat;
   background-position: 0 0;
   background-attachment: fixed;
@@ -313,6 +317,7 @@ header.main_header .row {
   overflow: auto;
   /* overflow-x: scroll; */
   width: 100%;
+  padding: 15px;
 }
 
 .search_box .product_listing {
@@ -1345,7 +1350,8 @@ form.change_location .form-control.input_type2 {
   cursor: pointer;
 }
 ul.pagination {
-  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid #ddd;
   display: inline-block;
   overflow: hidden;
